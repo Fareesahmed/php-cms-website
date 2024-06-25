@@ -1,0 +1,260 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,25pt]{article}
+\usepackage{fontawesome5}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Simranjit Singh} \\ \vspace{3pt}
+    \large \faPhone\  +91-88376-32829 $|$
+    \href{mailto:simranjitsingh94938@gmail.com}{\faEnvelope \underline{ simranjitsingh94938@gamil.com}} $|$ 
+    \href{https://www.linkedin.com/in/simranjitsingh12/}{\faLinkedin\ \underline{simranjitsingh12}} $|$
+   \href{https://github.com/Simranjit911}{\faGithub\ \underline{Simranjit911}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section*{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bachelor of Computer Applications}{2021-2024}
+      {Guru Nanak Dev University}{Punjab,India}
+    \resumeSubheading
+      {12th}{2020}
+      {Punjab School Education Board}{Punjab,India}
+    \resumeSubheading
+      {10th}{2018}
+      {Punjab School Education Board}{Punjab,India}
+    
+
+
+%-----------TECHNICAL SKILLS-----------
+\section*{Skills}
+\begin{itemize}[label={}, leftmargin=*] % Empty label removes bullet point
+    \item \textbf{Languages}: JavaScript, PHP, SQL
+    \item \textbf{Web Technologies}: HTML, CSS, Tailwind CSS, BootStrap
+    \item \textbf{Framework/Libraries}: jQuery
+    \item \textbf{Database}: MySQL
+    \item \textbf{CMS}: Wordpress
+    \item \textbf{Tools}: Git, GitHub, Postman, VS Code
+    \item \textbf{Soft Skills}: Communication, Fast Learner, Problem-Solving
+\end{itemize}
+
+
+\vspace{-15pt}
+
+%-----------EXPERIENCE START-----------
+\section*{Experience}
+\vspace{-6pt}
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+    {Full Stack Developer Intern}{April 2024 -- May 2024}
+    {Innobyte Services}{Remote}
+    \vspace{2pt}
+    \resumeItemListStart
+        \large
+        \resumeItem{Developed backend functionalities using PHP}
+        \resumeItem{Integrated backend services with the frontend developed in React.js}
+        \resumeItem{Collaborated with team members to optimize application performance and user experience}
+        \normalsize
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Web Developer Intern}{April 2024 -- May 2024} 
+    {Prodigy InfoTech}{Remote}
+    \vspace{2pt}
+    \resumeItemListStart
+        \large
+        \resumeItem{Designed and developed user interfaces for websites using HTML, CSS, and JavaScript}
+        \resumeItem{Ensured cross-browser compatibility and responsiveness of web applications}
+        \normalsize
+    \resumeItemListEnd
+    
+\resumeSubheading
+    {Full Stack Developer Intern}{March 2024 -- April 2024}
+    {Codeway Solutions}{Remote}
+    \vspace{2pt}
+    \resumeItemListStart
+        \large
+        \resumeItem{Developed backend functionalities using PHP }
+        \resumeItem{Integrated backend services with the frontend using PHP and JavaScript (ES6)}
+        \resumeItem{Collaborated with backend and frontend teams to deliver scalable and efficient solutions}
+        \normalsize
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+% Experience end
+
+
+% Project Start
+
+\section*{Projects}
+\vspace{-6pt}
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+    {Portfolio Website}{}
+    {}
+
+    \resumeItemListStart
+        \large
+        \resumeItem{Developed personal portfolio website using PHP, HTML, CSS, and Bootstrap}
+        \resumeItem{Deployed the website on a web hosting service (e.g., Vercel, Netlify, Heroku)}
+        \resumeItem{GitHub Repository: \href{https://github.com/yourusername/portfolio}{\underline{github.com/yourusername/portfolio}}}
+        \resumeItem{Live Link: \href{https://yourportfolio.com}{\underline{yourportfolio.com}}}
+        \normalsize
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {NoteSync - Full Stack Note Management App}{}
+    {}
+ 
+    \resumeItemListStart
+        \large
+        \resumeItem{Implemented CRUD functionality for managing notes using PHP and MySQL}
+        \resumeItem{Designed user interface with HTML, CSS, Bootstrap, and JavaScript (jQuery)}
+        \resumeItem{GitHub Repository: \href{https://github.com/yourusername/notesync}{\underline{github.com/yourusername/notesync}}}
+        \resumeItem{Live Link: \href{https://notesyncapp.com}{\underline{notesyncapp.com}}}
+        \normalsize
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {E-Commerce Website     \faGlobe}{PHP}
+    {}
+   
+    \resumeItemListStart
+        \large
+        \resumeItem{Developed a full-stack e-commerce platform using PHP, HTML, CSS, and MySQL}
+        \resumeItem{Integrated payment gateway and implemented shopping cart functionality}
+        \resumeItem{GitHub Repository: \href{https://github.com/yourusername/ecommerce}{\underline{github.com/yourusername/ecommerce}}}
+        \resumeItem{Live Link: \href{https://yourstore.com}{\underline{yourstore.com}}}
+        \normalsize
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%
+
+
+\section*{CERTIFICATES}
+
+\begin{itemize}[leftmargin=*]
+    \item JavaScript Course by Scaler
+    \item Node.js Course by Scaler
+    \item JavaScript DSA Course by freeCodeCamp
+\end{itemize}
+
+\vspace{3mm}
+
+%-------------------------------------------
+\end{document}
