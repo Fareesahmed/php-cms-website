@@ -86,4 +86,4 @@ if (isset($_GET['action']) && $_GET['action'] == "delete" && isset($_GET['id']))
         </div>
     </div>
 </div>
-<?php include "footer   .php"; ?>
+<?php include "footer.php"; ?>
